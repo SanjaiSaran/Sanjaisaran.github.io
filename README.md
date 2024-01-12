@@ -28,11 +28,19 @@ The key components include the creation of a dedicated Virtual Private Cloud (VP
 
 This automated security monitoring solution enhances the organization's ability to detect and respond to security threats in real-time, providing a centralized platform for log analysis, intrusion detection, and compliance monitoring. The use of GCP and Terraform ensures flexibility, scalability, and ease of management, making it an ideal solution for organizations seeking to strengthen their security posture in cloud environments.
 
+### Automated Security Monitoring: Deploying Wazuh on Google Cloud Platform with Terraform
+[Github](https://github.com/SanjaiSaran/terraform-GCP)
+![Image](/assets/img/project_1.png)
+ - Automated Deployment: The project leverages Terraform to automate the deployment of Wazuh components on Google Cloud Platform (GCP), ensuring a consistent and reproducible setup for security monitoring.
+ - Centralized Security Monitoring: Establishes a centralized platform for log analysis, intrusion detection, and compliance monitoring, enhancing the organization's ability to detect and respond to security threats effectively.
+ - Scalable Infrastructure: Utilizes GCP resources to create a scalable and resilient security monitoring environment, accommodating varying workloads and ensuring optimal resource utilization.
+ - Flexible Configuration: Allows easy customization of the deployment through Terraform variables and configuration files, enabling organizations to adapt the security monitoring infrastructure to their specific requirements.
+ - Enhanced Security Posture: By automating the deployment process and centralizing security monitoring, the project contributes to an improved overall security posture, providing a streamlined solution for organizations operating in cloud environments.
+
 ### Dynamic IP Updater for AWS Security Groups Using Python
 [Github](https://github.com/SanjaiSaran/python-aws-sg-update)
-
- - Objective: The project aims to automate the process of updating the allowed IP address in an AWS security group by leveraging a Python script.
 ![Image](/assets/img/project_2.png) 
+ - Objective: The project aims to automate the process of updating the allowed IP address in an AWS security group by leveraging a Python script.
  - Functionality: The Python script utilizes the Boto3 library to interact with AWS services, specifically targeting the EC2 security groups. It retrieves the current rules, revokes existing permissions, and authorizes the specified new IP address.
  - Security Group Management: The script enhances security group management by dynamically adapting to changes in the allowed IP address, providing a flexible and automated solution to keep security configurations up to date.
  - AWS Integration: The solution seamlessly integrates with AWS, utilizing the official AWS SDK for Python (Boto3) to interact with EC2 services, ensuring compatibility and reliability.
