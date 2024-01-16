@@ -46,4 +46,6 @@ This automated security monitoring solution enhances the organization's ability 
  - AWS Integration: The solution seamlessly integrates with AWS, utilizing the official AWS SDK for Python (Boto3) to interact with EC2 services, ensuring compatibility and reliability.
  - Ease of Use: By providing AWS credentials, region information, and target security group details, users can easily incorporate this script into their workflows, reducing manual intervention and enhancing the efficiency of IP address management in AWS security groups.
 
-### Phonepe Pulse Data Visualization and Exploration
+## Blog
+ - [Create Docker Repository in Jfrog Artifactory](https://medium.com/@1998sanjay.sanjay/create-docker-repository-in-jfrog-artifactory-c5b9f7a756e6)
+ - [Creating Terraform Repository in Jfrog Artifactory](https://medium.com/@1998sanjay.sanjay/creating-terraform-repository-in-jfrog-artifactory-b2f57376384a) 
