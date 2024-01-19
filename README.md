@@ -48,7 +48,7 @@ This automated security monitoring solution enhances the organization's ability 
 
 ### Securing Terraform: A Comprehensive Approach with tfsec and checkov
 [Github](https://github.com/SanjaiSaran/Securing-Terraform)
-[!Image](/assets/img/project_3.png)
+![Image](/assets/img/project_3.png)
  - Automated Security Checks: This Terraform security project automates security checks using tfsec and checkov, ensuring a proactive approach to identifying and mitigating potential security issues in your infrastructure code.
  - Local Development Integration: Developers can seamlessly incorporate security checks into their local development environment by running the provided security_checks.sh script. This allows for rapid feedback and immediate resolution of security issues during the development phase.
  - GitHub Actions Workflow: The project includes a GitHub Actions workflow (terraform_security_checks.yml) that automatically runs security checks on every push to the main branch. This integration provides continuous security validation as part of the CI/CD pipeline.
