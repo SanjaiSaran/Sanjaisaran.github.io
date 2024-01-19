@@ -46,6 +46,16 @@ This automated security monitoring solution enhances the organization's ability 
  - AWS Integration: The solution seamlessly integrates with AWS, utilizing the official AWS SDK for Python (Boto3) to interact with EC2 services, ensuring compatibility and reliability.
  - Ease of Use: By providing AWS credentials, region information, and target security group details, users can easily incorporate this script into their workflows, reducing manual intervention and enhancing the efficiency of IP address management in AWS security groups.
 
+### Securing Terraform: A Comprehensive Approach with tfsec and checkov
+[Github](https://github.com/SanjaiSaran/Securing-Terraform)
+[!Image](/assets/img/project_3.png)
+ - Automated Security Checks: This Terraform security project automates security checks using tfsec and checkov, ensuring a proactive approach to identifying and mitigating potential security issues in your infrastructure code.
+ - Local Development Integration: Developers can seamlessly incorporate security checks into their local development environment by running the provided security_checks.sh script. This allows for rapid feedback and immediate resolution of security issues during the development phase.
+ - GitHub Actions Workflow: The project includes a GitHub Actions workflow (terraform_security_checks.yml) that automatically runs security checks on every push to the main branch. This integration provides continuous security validation as part of the CI/CD pipeline.
+ - Tool Flexibility: By leveraging tfsec for static analysis and checkov for IaC-specific security scanning, the project offers a balanced and comprehensive approach to identifying security vulnerabilities, misconfigurations, and adherence to best practices.
+ - Customizable and Extendable: The project encourages users to customize Terraform code and security checks based on their specific project requirements. Additionally, it provides a foundation for exploring and integrating additional security tools to enhance overall infrastructure security.
+
 ## Blog
  - [Create Docker Repository in Jfrog Artifactory](https://medium.com/@1998sanjay.sanjay/create-docker-repository-in-jfrog-artifactory-c5b9f7a756e6)
- - [Creating Terraform Repository in Jfrog Artifactory](https://medium.com/@1998sanjay.sanjay/creating-terraform-repository-in-jfrog-artifactory-b2f57376384a) 
+ - [Creating Terraform Repository in Jfrog Artifactory](https://medium.com/@1998sanjay.sanjay/creating-terraform-repository-in-jfrog-artifactory-b2f57376384a)
+ - [Ensuring Terraform Security: A Comprehensive Guide](https://medium.com/@1998sanjay.sanjay/ensuring-terraform-security-a-comprehensive-guide-c6682e4edc30)
