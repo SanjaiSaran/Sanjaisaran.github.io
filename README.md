@@ -19,14 +19,6 @@
  - Conducted training sessions for SOC and IT teams to enhance their proficiency in utilizing Wazuh for cloud security.
 
 ## PROJECT
-### Automated Security Monitoring: Deploying Wazuh on Google Cloud Platform with Terraform
-[Github](https://github.com/SanjaiSaran/terraform-GCP)
-
-The "Automated Security Monitoring: Deploying Wazuh on Google Cloud Platform with Terraform" project aims to establish a robust security monitoring infrastructure leveraging Wazuh, an open-source security information and event management (SIEM) tool. This initiative involves the use of Terraform to automate the deployment of Wazuh components on Google Cloud Platform (GCP). By utilizing Terraform's infrastructure-as-code capabilities, the project ensures a consistent and scalable deployment of Wazuh across GCP resources.
-![Image](/assets/img/project_1.png)
-The key components include the creation of a dedicated Virtual Private Cloud (VPC) to isolate the Wazuh infrastructure, configuration of subnetworks, firewall rules, and the deployment of virtual machine instances for Wazuh manager and potentially other components such as agents and log collectors. The project also emphasizes the automation of initial setup and configuration through custom scripts, streamlining the deployment process.
-
-This automated security monitoring solution enhances the organization's ability to detect and respond to security threats in real-time, providing a centralized platform for log analysis, intrusion detection, and compliance monitoring. The use of GCP and Terraform ensures flexibility, scalability, and ease of management, making it an ideal solution for organizations seeking to strengthen their security posture in cloud environments.
 
 ### Automated Security Monitoring: Deploying Wazuh on Google Cloud Platform with Terraform
 [Github](https://github.com/SanjaiSaran/terraform-GCP)
@@ -59,3 +51,4 @@ This automated security monitoring solution enhances the organization's ability 
  - [Create Docker Repository in Jfrog Artifactory](https://medium.com/@1998sanjay.sanjay/create-docker-repository-in-jfrog-artifactory-c5b9f7a756e6)
  - [Creating Terraform Repository in Jfrog Artifactory](https://medium.com/@1998sanjay.sanjay/creating-terraform-repository-in-jfrog-artifactory-b2f57376384a)
  - [Ensuring Terraform Security: A Comprehensive Guide](https://medium.com/@1998sanjay.sanjay/ensuring-terraform-security-a-comprehensive-guide-c6682e4edc30)
+ - [Building and Containerizing a Maven project using GitLab, Docker, JFrog Artifactory, and JFrog Xray](https://medium.com/@1998sanjay.sanjay/building-and-containerizing-a-maven-project-using-gitlab-docker-jfrog-artifactory-and-jfrog-xray-24335b699d99)
